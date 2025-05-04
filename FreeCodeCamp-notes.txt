@@ -1,0 +1,7 @@
+html validatior
+----------------
+validator call the checking the correctness of html code
+validator checking site: https://validator.w3.org 
+			 jeson formetter.org
+			 
+			

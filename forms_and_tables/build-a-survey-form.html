@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Rased Academy Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Rased Academy Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form id="survey-form">
+
+      <!--its for take input name,email, & age-->
+      <label for="name-label" id="name-label">Name</label>
+      <input required type="text" id="name" placeholder="Enter you Name">
+      <br>
+      <label for="email-label" id="email-label">Email</label>
+      <input required type="email" id="email" placeholder="Enter your Email">
+      <br>
+      <label for="number" id="number-label">Age(optional)</label>
+      <input type="number" id="number" placeholder="Age" min="10" max="40">
+      
+      <br>
+      <!--it's for select option-->
+      <p>Which option best describes your current role?</p>
+      <select id="dropdown">
+        <option selected disabled >Select current role</option>
+        <option>Student</option>
+        <option>Full Time Job</option>
+        <option>Full Time Learner</option>
+        <option>Prefer not to say</option>
+        <option>Other</option>
+      </select>
+
+      <!-- it's for radio button -->
+      <p>Would you recommend Rased Academy to a friend?</p>
+      <input type="radio" id="definitely" name="select_recomendation" value="definitely">
+      <label for="definitely">Definitely</label>
+      <input type="radio" id="maybe" name="select_recomendation" value="maybe">
+      <label for="maybe">Maybe</label>
+      <input type="radio" id="not_sure" name="select_recomendation" value="not_sure">
+      <label for="not_sure">Not Sure</label>
+
+      <!-- it's for checkbox buttons -->
+      <p>What would you like to see improved? (Check all that apply)</p>
+      <input type="checkbox" id="front-end_project"value="front-end_project">
+      <label for="front-end_project">Front-end Project</label>
+
+      <input type="checkbox" id="back-end_project" value="back-end_project">
+      <label for="back-end_project">Back-end Project</label>
+
+      <input type="checkbox" id="data_visualization" value="data_visualization">
+      <label for="data_visualization">Data Visualization</label>
+
+      <input type="checkbox" id="challenges" value="challenges">
+      <label for="challenges">Challenges</label>
+
+      <input type="checkbox" id="open_sourch_community" value="open_sourch_community">
+      <label for="open_sourch_community">Open Source Community</label>
+      
+      <!-- comment sesesion -->
+      <p>Any comments or suggestions?</p>
+      <textarea rows="5" cols="40" placeholder="Enter your comments here..."></textarea>
+      <br>
+
+      <!-- sublit button -->
+      <label for="submit"></label>
+      <input type="submit" id="submit">
+
+
+    </form>
+  </body>
+</html>
