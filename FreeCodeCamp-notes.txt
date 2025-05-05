@@ -3,5 +3,11 @@ html validatior
 validator call the checking the correctness of html code
 validator checking site: https://validator.w3.org 
 			 jeson formetter.org
+web accessibility test:
+1.Chrome dev tool: Google lighthouse
+2.pagespeed.web.dev 
+3.wave.webaim.org
+4.firefox extension: ibm equl acess acessibility
+
 			 
 			
