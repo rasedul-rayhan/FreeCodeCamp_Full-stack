@@ -52,8 +52,17 @@ address{
     font-style: normal;
     margin-bottom: 5px;
 }
-address a{
+a{
     color: white;
-
-
 }
+a:visited{
+    color: white;
+}
+a:active{
+    color: burlywood;
+}
+a:hover{
+    color: burlywood;
+}
+
+
