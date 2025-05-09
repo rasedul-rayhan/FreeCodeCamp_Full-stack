@@ -1,0 +1,59 @@
+body{
+    background-image: url(images/background_image.jpg);
+    font-family: sans-serif;
+    padding: 40px;
+}
+
+.container{
+    background-color: rgb(129, 106, 76);
+    width: 60%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    border-radius: 3%;   
+}
+
+.header-text{
+    margin-top: -10px;
+}
+
+h1,h2{
+    font-family: impact, serif;
+}
+p, h1, h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+.item p{
+    text-align: center;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.item .item-name{
+    text-align: left;
+    width: 75%;
+}
+.item .price{
+    text-align: right;
+    width: 25%;
+}
+hr{
+    /* height: 2px; */
+    border-color: white;
+    background-color: white;
+}
+
+address{
+    font-size: 14px;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+address a{
+    color: white;
+
+
+}
