@@ -1,0 +1,52 @@
+body{
+    background-color: #f0f0f0;
+    padding: 40px;
+}
+
+.container{
+    width: 70%;
+    max-width: 600px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+h1{
+    text-align: center;
+}
+.container > ul{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container > ul > li{
+    list-style-type: none;
+    background-color: #e4f0e5;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+    margin-bottom: 15px;
+}
+.sub-item > li{
+    margin: 10px;
+    list-style-type: square;
+}
+.sub-item-link{
+    text-decoration: none;
+    margin-left: 10px;
+}
+.sub-item-link:hover{
+    color: red;
+}
+.sub-item-link:active{
+    color:red;
+}
+.sub-item-link:focus{
+    outline: 2px solid green;
+}
+.sub-item-link:visited{
+    color: green;
+}
+
